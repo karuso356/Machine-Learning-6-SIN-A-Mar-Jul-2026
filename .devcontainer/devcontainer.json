@@ -2,7 +2,7 @@
     "name": "Ml WorkShop 2 - Work Environment",
     
     "build":{
-        "dockerfile": "dockerfile"
+        "dockerfile": "Dockerfile"
     },
 
     "customizations": {

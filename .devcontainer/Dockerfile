@@ -1,4 +1,4 @@
-FROM pyhton:3.12-slim
+FROM python:3.12-slim
 
 RUN apt-get update && apt-get install -y \
     curl \
@@ -21,4 +21,4 @@ COPY requirements.txt .
 RUN  uv pip install --python .venv/bin/python -r requirements.txt
 
 ENV VIRTUAL_VENV=/app/.venv
-ENV PATH= "/app/.venv/bin:$PATH"
+ENV PATH="/app/.venv/bin:$PATH"
