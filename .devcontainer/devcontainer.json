@@ -18,7 +18,7 @@
                 "ms-azuretools.vscode-containers"
             ],
             "setting":{
-                "python.defaultInterpreterPath": "/app/.venv/bin/python",
+                "python.defaultInterpreterPath": "/app/.gabriel/bin/python",
 
                 "jupyter.notebookFileRoot": "${workspaceFolder}"
 
@@ -27,6 +27,6 @@
         }
 
     },
-    "postCreateCommand": "echo 'source /app/.venv/bin/activate' >> ~/.bashrc"
+    "postCreateCommand": "echo 'source /app/.gabriel/bin/activate' >> ~/.bashrc"
 
 }
