@@ -21,4 +21,4 @@ COPY requirements.txt .
 RUN  uv pip install --python .gabriel/bin/python -r requirements.txt
 
 ENV VIRTUAL_VENV=/app/.gabriel
-ENV PATH="/app/.venv/bin:$PATH"
+ENV PATH="/app/.gabriel/bin:$PATH"
